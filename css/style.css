@@ -589,3 +589,49 @@
     color: rgb(20, 156, 219);
     background-color: white;
 }
+input,
+textarea,
+select {
+  transition: all 0.3s ease;
+}
+.neuton-extralight {
+  font-family: "Neuton", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.neuton-light {
+  font-family: "Neuton", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.neuton-regular {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.neuton-bold {
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.neuton-extrabold {
+  font-family: "Neuton", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.neuton-regular-italic {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+/* CSS */
+.logo{
+  height: 40px;     /* desired logo height  */
+  width: auto;      /* maintain aspect ratio */
+  display: block;   /* remove inline‑gap */
+}
